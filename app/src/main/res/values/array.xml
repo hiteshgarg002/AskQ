@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="home_titles">
+        <item>Feed</item>
+        <item>Bookmark</item>
+        <item>New</item>
+    </string-array>
+
+    <string-array name="answer_titles">
+        <item>For you</item>
+        <item>Requests</item>
+        <item>Saved</item>
+    </string-array>
+
+    <string-array name="ui_design_titles">
+        <item>Explore</item>
+        <item>Saved</item>
+    </string-array>
+
+    <string-array name="notifications_titles">
+        <item>Notification</item>
+        <item>Inbox</item>
+    </string-array>
+
+    <string-array name="auth_titles">
+        <item>SIGN UP</item>
+        <item>LOG IN</item>
+    </string-array>
+</resources>

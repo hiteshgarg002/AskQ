@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:enabled="true"
+        android:id="@+id/item_home"
+        android:title="@string/bottom_nav_item_home"
+        android:icon="@drawable/ic_action_home" />
+
+    <item
+        android:enabled="true"
+        android:id="@+id/item_answer"
+        android:title="@string/bottom_nav_item_answer"
+        android:icon="@drawable/ic_action_answer" />
+
+    <item
+        android:enabled="true"
+        android:id="@+id/item_ui_design"
+        android:title="@string/bottom_nav_item_ui_design"
+        android:icon="@drawable/ic_action_ui_design" />
+
+    <item
+        android:enabled="true"
+        android:id="@+id/item_notifications"
+        android:title="@string/bottom_nav_item_notification"
+        android:icon="@drawable/ic_action_notifications" />
+
+    <item
+        android:enabled="true"
+        android:id="@+id/item_profile"
+        android:title="@string/bottom_nav_item_profile"
+        android:icon="@drawable/ic_action_profile" />
+
+</menu>

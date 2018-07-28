@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: lib.kingja.switchbutton:switchbutton-1.1.6">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/switchbutton-1.1.6.aar/6225d70f2bf553a1d87642048d000076/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/switchbutton-1.1.6.aar/6225d70f2bf553a1d87642048d000076/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/lib.kingja.switchbutton/switchbutton/1.1.6/6eae835061a3700fb7da182e37d616b838d10f1c/switchbutton-1.1.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

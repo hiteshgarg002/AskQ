@@ -1,0 +1,130 @@
+<!--<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:animateLayoutChanges="true"-->
+    <!--android:background="@color/white">-->
+
+    <!--<RelativeLayout-->
+        <!--android:id="@+id/relLoadingOnHomeNew"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center">-->
+
+        <!--<com.wang.avi.AVLoadingIndicatorView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--app:indicatorColor="@color/link_blue" />-->
+
+    <!--</RelativeLayout>-->
+
+    <!--<RelativeLayout-->
+        <!--android:id="@+id/relHomeNew"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:background="@color/white"-->
+        <!--android:visibility="gone">-->
+
+        <!--<android.support.v4.widget.NestedScrollView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:background="@color/white"-->
+            <!--android:backgroundTint="@color/white"-->
+            <!--android:fillViewport="true">-->
+
+            <!--<android.support.v7.widget.RecyclerView-->
+                <!--android:id="@+id/homeNewRecyclerView"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:background="@color/white"-->
+                <!--android:backgroundTint="@color/white"-->
+                <!--android:clipToPadding="false"-->
+                <!--android:nestedScrollingEnabled="false"-->
+                <!--android:padding="0dp"-->
+                <!--android:scrollbars="none"-->
+                <!--app:layout_behavior="@string/appbar_scrolling_view_behavior" />-->
+
+        <!--</android.support.v4.widget.NestedScrollView>-->
+
+    <!--</RelativeLayout>-->
+
+<!--</FrameLayout>-->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:layout_gravity="center">
+
+    <RelativeLayout
+        android:id="@+id/relLoadingOnHomeNew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <com.wang.avi.AVLoadingIndicatorView
+            app:indicatorName="BallClipRotateIndicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:indicatorColor="@color/black" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relHomeNew"
+        android:layout_gravity="center">
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:id="@+id/nestedSVonHomeNew"
+            android:layout_above="@+id/paginationLoadingOHomeNew"
+            android:backgroundTint="@color/white"
+            android:fillViewport="true">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/homeNewRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:backgroundTint="@color/white"
+                android:clipToPadding="false"
+                android:nestedScrollingEnabled="false"
+                android:padding="0dp"
+                android:scrollbars="none"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+        </android.support.v4.widget.NestedScrollView>
+
+        <com.wang.avi.AVLoadingIndicatorView
+            android:visibility="gone"
+            app:indicatorName="BallClipRotateIndicator"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            app:indicatorColor="@color/black"
+            android:layout_width="wrap_content"
+            android:id="@+id/paginationLoadingOHomeNew"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingAskOnHomeNew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="20dp"
+        android:background="@color/black"
+        android:src="@drawable/ic_action_add"
+        android:tint="@color/white"
+        app:backgroundTint="@color/black"
+        app:fabSize="normal" />
+
+</FrameLayout>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.skydoves:powermenu-2.0.4">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/powermenu-2.0.4.aar/c3331f651a1556dd48afe953d137bfcf/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/powermenu-2.0.4.aar/c3331f651a1556dd48afe953d137bfcf/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.skydoves/powermenu/2.0.4/89143b83b966b28cd33a9d3d38399afac314e563/powermenu-2.0.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

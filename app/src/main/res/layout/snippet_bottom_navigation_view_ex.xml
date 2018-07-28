@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <View
+            android:visibility="gone"
+            android:id="@+id/lineView"
+            android:layout_width="match_parent"
+            android:layout_height="0.1px"
+            android:layout_alignParentTop="true"
+            android:background="@color/black" />
+
+        <com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx
+            android:id="@+id/bottomNavigationView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/lineView"
+            android:background="@color/white"
+            app:itemTextColor="@drawable/nav_item_state_color"
+            app:itemIconTint="@drawable/nav_item_state_color"
+            app:menu="@menu/bottom_navigation_view_ex_items" />
+
+    </RelativeLayout>
+
+</merge>

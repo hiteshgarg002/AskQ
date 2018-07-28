@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.zawadz88.materialpopupmenu:material-popup-menu-2.0.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/material-popup-menu-2.0.0.aar/45a6111388e7dd9268cc036023307e65/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/material-popup-menu-2.0.0.aar/45a6111388e7dd9268cc036023307e65/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.zawadz88.materialpopupmenu/material-popup-menu/2.0.0/33fed4c8dcd83f80f61937329d7f30423ba63f35/material-popup-menu-2.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

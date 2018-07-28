@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".activities.ReplyActivity">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <android.support.v7.widget.RecyclerView
+           android:layout_width="match_parent"
+           android:id="@+id/replyRecycler"
+           android:layout_above="@+id/reply_box_linear"
+           android:layout_height="match_parent"/>
+
+       <LinearLayout
+   android:background="@color/white"
+           android:layout_margin="3dp"
+           android:padding="5dp"
+           android:id="@+id/reply_box_linear"
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:layout_alignParentBottom="true"
+           android:layout_height="wrap_content">
+
+           <View
+               android:layout_width="match_parent"
+               android:layout_height="0.2dp"
+               android:background="@color/black"/>
+
+           <LinearLayout
+               android:layout_marginTop="3dp"
+               android:orientation="horizontal"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+               <ImageView
+                   android:layout_width="wrap_content"
+                   android:src="@drawable/ic_action_back"
+                   android:layout_height="wrap_content" />
+
+           </LinearLayout>
+
+       </LinearLayout>
+
+   </RelativeLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="20dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_action_add_fill"
+        app:fabSize="mini"
+        android:tint="@color/white"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_height="wrap_content" />
+
+</android.support.design.widget.CoordinatorLayout>
