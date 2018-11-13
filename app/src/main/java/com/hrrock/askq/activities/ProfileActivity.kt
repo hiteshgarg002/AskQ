@@ -2,11 +2,9 @@ package com.hrrock.askq.activities
 
 import android.app.Activity
 import android.content.Context
-import android.content.res.ColorStateList
-import android.content.res.Resources
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.v4.content.ContextCompat
+import android.support.v7.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
 import android.view.WindowManager
@@ -15,20 +13,20 @@ import com.hrrock.askq.utils.BottomNavigationViewHelper
 import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx
 
 class ProfileActivity : AppCompatActivity() {
-    private var ctx: Context?=null
+    private var ctx: Context? = null
     private var activity: Activity? = null
     private var bottomNavigationViewEx: BottomNavigationViewEx? = null
     private var menuItem: MenuItem? = null
     private var menu: Menu? = null
 
     private companion object {
-        private const val ACTIVITY_NUM=4
+        private const val ACTIVITY_NUM = 4
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_profile)
-        ctx=this
+        ctx = this
         activity = this
 
         setNavigationStatusBarColor()

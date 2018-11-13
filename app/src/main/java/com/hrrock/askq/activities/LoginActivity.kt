@@ -105,7 +105,7 @@ class LoginActivity : AppCompatActivity() {
     private fun onLoginPress() {
         PushDownAnim.setPushDownAnimTo(relLoginOnLogin)
                 .setScale(PushDownAnim.MODE_SCALE, 0.89f)
-                .setOnClickListener({
+                .setOnClickListener {
                     if (validateData()) {
                         relLoginOnLogin.visibility= View.GONE
                         relLoadingOnLogin.visibility=View.VISIBLE
@@ -113,7 +113,7 @@ class LoginActivity : AppCompatActivity() {
                     } else {
                         Snackbar.make(rootRelLogin, "Field(s) can not be empty!", Snackbar.LENGTH_LONG).show()
                     }
-                })
+                }
     }
 
     private fun validateData(): Boolean {
